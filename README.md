@@ -18,7 +18,11 @@
 
 ## 2. 프로젝트 구조
 ### ⚙️ 시스템 구조도
+![시스템 구조도](images/Architecture.png)
+
 ### 🔗 ERD
+![ERD](images/ERD.png)
+
 ### 🛠️ 기술 스택
 - 언어: Python
 - 자동화: Apache Airflow

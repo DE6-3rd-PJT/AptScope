@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # API 연결
-API_KEY = '7O72EQ764L9SZ8ROR12J'
+API_KEY = '********************'
 CYCLE = 'M'
 
 # CSI 지역 코드

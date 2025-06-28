@@ -7,7 +7,7 @@ from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
-API_KEY = '57414e52646573743132364648444e43'
+API_KEY = '********************************'
 BASE_URL = 'http://openapi.seoul.go.kr:8088'
 SERVICE = 'tbLnOpendataRtmsV'
 TYPE = 'xml'

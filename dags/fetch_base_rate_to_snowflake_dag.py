@@ -21,13 +21,14 @@ default_args = {
 
 def fetch_base_rate():
     today = datetime.today()
+    API_KEY = "********************"
     start_month = "202201"
     end_month = today.strftime("%Y%m")
 
     logger.info(f"📡 Fetching ECOS API data: {start_month} ~ {end_month}")
 
     url = (
-        f"https://ecos.bok.or.kr/api/StatisticSearch/QVGOYJXO64ZJMD632RU5/xml/kr/1/1000/"
+        f"https://ecos.bok.or.kr/api/StatisticSearch/{API_KEY}/xml/kr/1/1000/"
         f"722Y001/M/{start_month}/{end_month}/0101000"
     )
     res = requests.get(url)
